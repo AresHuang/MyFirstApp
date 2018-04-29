@@ -15,6 +15,8 @@
 		4732FE7B207C510B0039ED23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4732FE7A207C510B0039ED23 /* main.m */; };
 		4732FE85207C510B0039ED23 /* MyFirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4732FE84207C510B0039ED23 /* MyFirstAppTests.m */; };
 		4732FE90207C510B0039ED23 /* MyFirstAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4732FE8F207C510B0039ED23 /* MyFirstAppUITests.m */; };
+		473840E6207F1717008E313E /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473840E4207F1717008E313E /* Second.storyboard */; };
+		47F6B85A2085A1A0005824D4 /* MyFirstClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F6B8592085A1A0005824D4 /* MyFirstClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 4732FE67207C510A0039ED23;
 			remoteInfo = MyFirstApp;
+		};
+		473840DC207E2BF9008E313E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473840D6207E2BF8008E313E /* hw1.7.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4738409E207E2BF6008E313E;
+			remoteInfo = hw1.7;
+		};
+		473840DE207E2BF9008E313E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473840D6207E2BF8008E313E /* hw1.7.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 473840B9207E2BF8008E313E;
+			remoteInfo = hw1.7Tests;
+		};
+		473840E0207E2BF9008E313E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473840D6207E2BF8008E313E /* hw1.7.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 473840C4207E2BF8008E313E;
+			remoteInfo = hw1.7UITests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,6 +74,10 @@
 		4732FE8B207C510B0039ED23 /* MyFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4732FE8F207C510B0039ED23 /* MyFirstAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstAppUITests.m; sourceTree = "<group>"; };
 		4732FE91207C510B0039ED23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		473840D6207E2BF8008E313E /* hw1.7.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hw1.7.xcodeproj; path = hw1.7/hw1.7.xcodeproj; sourceTree = "<group>"; };
+		473840E5207F1717008E313E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MyFirstApp/Base.lproj/Second.storyboard; sourceTree = "<group>"; };
+		47F6B8582085A1A0005824D4 /* MyFirstClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFirstClass.h; sourceTree = "<group>"; };
+		47F6B8592085A1A0005824D4 /* MyFirstClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +108,8 @@
 		4732FE5F207C510A0039ED23 = {
 			isa = PBXGroup;
 			children = (
+				473840E4207F1717008E313E /* Second.storyboard */,
+				473840D6207E2BF8008E313E /* hw1.7.xcodeproj */,
 				4732FE6A207C510A0039ED23 /* MyFirstApp */,
 				4732FE83207C510B0039ED23 /* MyFirstAppTests */,
 				4732FE8E207C510B0039ED23 /* MyFirstAppUITests */,
@@ -104,6 +133,8 @@
 				4732FE6B207C510A0039ED23 /* AppDelegate.h */,
 				4732FE6C207C510A0039ED23 /* AppDelegate.m */,
 				4732FE6E207C510A0039ED23 /* ViewController.h */,
+				47F6B8582085A1A0005824D4 /* MyFirstClass.h */,
+				47F6B8592085A1A0005824D4 /* MyFirstClass.m */,
 				4732FE6F207C510A0039ED23 /* ViewController.m */,
 				4732FE71207C510A0039ED23 /* Main.storyboard */,
 				4732FE74207C510B0039ED23 /* Assets.xcassets */,
@@ -130,6 +161,16 @@
 				4732FE91207C510B0039ED23 /* Info.plist */,
 			);
 			path = MyFirstAppUITests;
+			sourceTree = "<group>";
+		};
+		473840D7207E2BF8008E313E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				473840DD207E2BF9008E313E /* hw1.7.app */,
+				473840DF207E2BF9008E313E /* hw1.7Tests.xctest */,
+				473840E1207E2BF9008E313E /* hw1.7UITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +262,12 @@
 			mainGroup = 4732FE5F207C510A0039ED23;
 			productRefGroup = 4732FE69207C510A0039ED23 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 473840D7207E2BF8008E313E /* Products */;
+					ProjectRef = 473840D6207E2BF8008E313E /* hw1.7.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4732FE67207C510A0039ED23 /* MyFirstApp */,
@@ -230,6 +277,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		473840DD207E2BF9008E313E /* hw1.7.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = hw1.7.app;
+			remoteRef = 473840DC207E2BF9008E313E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		473840DF207E2BF9008E313E /* hw1.7Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = hw1.7Tests.xctest;
+			remoteRef = 473840DE207E2BF9008E313E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		473840E1207E2BF9008E313E /* hw1.7UITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = hw1.7UITests.xctest;
+			remoteRef = 473840E0207E2BF9008E313E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		4732FE66207C510A0039ED23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -237,6 +308,7 @@
 			files = (
 				4732FE78207C510B0039ED23 /* LaunchScreen.storyboard in Resources */,
 				4732FE75207C510B0039ED23 /* Assets.xcassets in Resources */,
+				473840E6207F1717008E313E /* Second.storyboard in Resources */,
 				4732FE73207C510A0039ED23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4732FE70207C510A0039ED23 /* ViewController.m in Sources */,
+				47F6B85A2085A1A0005824D4 /* MyFirstClass.m in Sources */,
 				4732FE7B207C510B0039ED23 /* main.m in Sources */,
 				4732FE6D207C510A0039ED23 /* AppDelegate.m in Sources */,
 			);
@@ -314,6 +387,14 @@
 				4732FE77207C510B0039ED23 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		473840E4207F1717008E313E /* Second.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				473840E5207F1717008E313E /* Base */,
+			);
+			name = Second.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
